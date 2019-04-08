@@ -1,20 +1,30 @@
 {
   "name": "tdd-array-quiz",
   "version": "1.0.0",
-  "description": "* Use **standard lab submission procedure** that you have used for past 9 weeks: fork, clone, work, push, PR!",
+  "description": "* Use **standard lab submission procedure**: fork, clone, work, push, PR!",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
-  "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "start": "npm run test:watch"
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1"
   },
-  "keywords": [],
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose",
+    "test:watch": "npm run test -- --watch",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intromode/tdd-array-quiz.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intromode/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/intromode/tdd-array-quiz#readme"
 }
