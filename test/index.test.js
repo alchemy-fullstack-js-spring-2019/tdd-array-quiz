@@ -6,4 +6,8 @@ describe('FUNKY FUNCTION TEST', () => {
     const result = funky(array);
     expect(result).toEqual(['hot', 'green']);
   });
+
+  it('returns filtered array into a sentence', () => {
+    expect().toEqual();
+  });
 });
