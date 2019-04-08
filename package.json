@@ -8,13 +8,26 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "start": "npm run test:watch"
+    "start": "npm run test:watch",
+    "test": "jest --verbose",
+    "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkerchristian/tdd-array-quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/parkerchristian/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/parkerchristian/tdd-array-quiz#readme"
 }
