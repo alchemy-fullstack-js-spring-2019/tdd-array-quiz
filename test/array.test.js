@@ -1,4 +1,4 @@
-const filterArray = require('lib/array');
+const filterArray = require('../lib/array');
 
 
 
