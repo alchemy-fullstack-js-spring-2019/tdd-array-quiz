@@ -7,4 +7,10 @@ describe('function that creates a new array and returns an array that removes wo
     const newArr = arr.map();
     return newArr;
   });
+  it('removes items from a returned array', () => {
+    const newArr = ['yellow', 'blue', 'green'];
+    newArr.filter();
+
+  });
+
 });
