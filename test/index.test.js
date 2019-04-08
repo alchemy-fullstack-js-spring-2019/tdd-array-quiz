@@ -1,4 +1,4 @@
-
+const removeY = require('../lib/index');
 
 describe('Remove words with letter Y or y, replace with is it', () => {
   const removeY = inputTest(['sky', 'hot', 'Yeti', 'green']);
