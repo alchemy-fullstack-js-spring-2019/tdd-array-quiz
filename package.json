@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --verbose",
     "test:watch": "jest --watch",
     "lint": "eslint .",
     "pretest": "npm run lint",
@@ -16,5 +16,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1"
+  }
 }
