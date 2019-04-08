@@ -7,10 +7,3 @@ describe('function filters out words with the Y and changes message with remaini
     expect(noY(words)).toEqual(['hot', 'green']);
   });
 });
-
-
-//goals: remove any words that contain Y or y
-//word changed to 'Is it <word>n
-
-
-//what do I start with... first test 
