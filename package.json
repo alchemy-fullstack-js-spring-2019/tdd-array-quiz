@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --verbose",
     "test:watch": "jest --watch",
     "lint": "eslint .",
     "pretest": "npm run lint",

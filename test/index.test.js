@@ -1,6 +1,7 @@
+const assert = require('assert');
 const removeY = require('../lib/index');
 
 describe('Remove words with letter Y or y, replace with is it', () => {
-  const removeY = inputTest(['sky', 'hot', 'Yeti', 'green']);
+  const result = removeY(['sky', 'hot', 'Yeti', 'green']);
   assert.deepEqual(['Is it hot?', 'Is it green?']);
 });
