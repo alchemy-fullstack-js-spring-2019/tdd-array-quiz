@@ -9,4 +9,8 @@ describe('yFilter function test', () => {
     const input = ['sky', 'hot', 'Yeti', 'green'];
     expect(yFilter(input)).toEqual(['Is it hot?', 'Is it green?']);
   });
+  it('can handle an input of not words', () => {
+    const breaker = [0, 1, 2, 3];
+    expect(yFilter(breaker)).toEqual([]);
+  });
 });
