@@ -15,6 +15,14 @@
     "start": "npm run test:watch"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Heather Parks",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unphurlng/tdd-array-quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unphurlng/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/unphurlng/tdd-array-quiz#readme"
 }
