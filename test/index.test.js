@@ -13,4 +13,3 @@ describe('removeY', () => {
         expect(returned).toEqual(['Is it hot?', 'Is it green?']);
     });
 });
-
