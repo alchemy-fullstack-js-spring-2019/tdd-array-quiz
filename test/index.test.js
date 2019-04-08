@@ -4,7 +4,7 @@ describe('string modifier', () => {
   it('finds any instance of y or Y and removes that string from the array', () => {
     const input = ['sky', 'hot', 'Yeti', 'green'];
     const expected = ['hot', 'green'];
-
+    console.log(expected, 'expect');
     expect(modifyString(input)).toEqual(expected);
 
   });
