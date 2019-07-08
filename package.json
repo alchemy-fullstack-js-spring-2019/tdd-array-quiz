@@ -17,7 +17,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "eslint": "^6.0.1",
     "jest": "^24.8.0"
   }
