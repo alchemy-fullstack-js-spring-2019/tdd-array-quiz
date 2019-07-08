@@ -16,5 +16,19 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosus/tdd-array-quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carlosus/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/carlosus/tdd-array-quiz#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
 }
