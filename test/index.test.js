@@ -1,4 +1,4 @@
-const { filter } = require('../test/index.test');
+const { filter } = require('../lib/index');
 
 describe('filter an array', () => {
   it('filter any words than contain the letter Y or y', () => {
