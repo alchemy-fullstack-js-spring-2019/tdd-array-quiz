@@ -6,5 +6,10 @@ describe('alterArray', () => {
     const newArr = alterArray(arr);
     expect(newArr).toHaveLength(2);
   });
+  it('modifies to "Is it <word>?" format', () => {
+    const arr = ['sky', 'hot', 'Yeti', 'green'];
+    const newArr = alterArray(arr);
+    expect(newArr).toBe(['Is it hot?', 'Is it green?']);
+  });
 });
 
