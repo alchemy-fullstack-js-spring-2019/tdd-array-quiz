@@ -1,11 +1,15 @@
 const words = ['hi', 'bYe', 'YYes'];
 
 function dontAskWhy(arr) {
+  const updatedArr = [];
   for(let i = 0; i < arr.length; i++) {
     const word = arr[i].toLowerCase();
-    console.log(word);
+    if(!word.includes('y')) {
+      updatedArr.push(word);
+    }
   }
-};
+  console.log(updatedArr);
+}
 
 dontAskWhy(words);
 
