@@ -11,5 +11,11 @@ describe('testing the removeYAddText function', () => {
         const someArray = ['sky', 'hot', 'Yeti', 'green'];
         const result = removeYAddText(someArray);
         expect(result).toEqual(['hot', 'green']);
+    });
+
+    it('returns an array with existing words updated with extra text', () => {
+        const someArray = ['sky', 'hot', 'Yeti', 'green'];
+        const result = removeYAddText(someArray);
+        expect(result).toEqual(['It is hot', 'It is green']);
     })
 })
