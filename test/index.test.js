@@ -9,4 +9,11 @@ describe('array function', () => {
 
     expect(colorArr).toEqual(expect.any(Array));
   }); 
+
+  it('returns indexs with y', () => {
+    const colors = ['green', 'yellow', 'blue'];
+    const index = dontAsk(colors, color => color.includes('y'));
+
+    expect(index).toEqual(1);
+  });
 })
