@@ -1,9 +1,9 @@
-const {dontAskWhy} = require('../lib/index');
+// const {dontAskWhy} = require('../lib/index');
 
-describe('arr', () => {
-  it('takes in array and returns new array', () => {
-    const arr = ['hi', 'bye'];  
-    expect(arr) = 
-
-  })
-})
+// describe('arr', () => {
+//   it('removes word with Y', () => {
+//     const arr = ['hi', 'bYe'];  
+//     const newArr = dontAskWhy(arr);
+//     expect(newArr) = toEqual(arr);
+//   })
+// })
