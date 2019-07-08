@@ -9,7 +9,6 @@ that takes an array of words (strings, _you can assume valid input_) and returns
 
 * Has removed any words than contain the letter `Y` or `y`. (HINT: See [`includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes))
 * Has modified the original word to be a phrase of the format: "Is it &lt;word&gt;?"
-
 Test Case:
 
 Input | Output
