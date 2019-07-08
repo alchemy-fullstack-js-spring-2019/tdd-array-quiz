@@ -1,4 +1,4 @@
-const { why } = require('./why');
+const { why } = require('../lib/why');
 
 describe('oh man what is happening to this class I am gonna cry', () => {
 
