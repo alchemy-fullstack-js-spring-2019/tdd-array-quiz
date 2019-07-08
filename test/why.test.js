@@ -11,7 +11,7 @@ describe('oh man what is happening to this class I am gonna cry', () => {
 
         const result = why(input);
 
-        expect(result).toBe(expected);
+        expect(result).toEqual(expected);
 
     }); 
 
