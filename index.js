@@ -8,6 +8,7 @@ function dontAskWhy(arr) {
       updatedArr.push(word);
     }
   }
+  updatedArr.forEach(word => `It is ${word}`);
   console.log(updatedArr);
 }
 
