@@ -5,11 +5,11 @@ const ourArr = ['sky', 'hot', 'Yeti', 'green'];
 describe('test function returns no y words and is it', () => {
   it('removes words with y', () => {
 
-    ourFunc(ourArr);
+    const actual = ourFunc(ourArr);
 
     const expectedRes = ['hot', 'green'];
     
-    expect(ourArr).toEqual(expectedRes);
+    expect(actual).toEqual(expectedRes);
   });
 
   it('adds is it to each word', () => {
